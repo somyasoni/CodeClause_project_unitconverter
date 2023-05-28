@@ -1,0 +1,35 @@
+.timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.timer-controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.timer-button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+.timer-display {
+    display: flex;
+}
+
+.timer-separator {
+    font-size: 2rem;
+    margin: 0 10px;
+}
+
+.timer-value {
+    font-size: 4rem;
+}
